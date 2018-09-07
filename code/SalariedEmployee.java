@@ -8,18 +8,25 @@ public class SalariedEmployee extends Employee{
 	public SalariedEmployee(String firstName, String lastName, String socialSecurityNumber, 
 							double weeklySalary) {		
 		super(firstName, lastName, socialSecurityNumber);
-		
-		if(weeklySalary < 0.0)
-			throw new IllegalArgumentException("Weekly salary must be >= 0.0");
-		
+		weeklySalaryException(weeklySalary);		
 		this.weeklySalary = weeklySalary;
 	}
 	
-	
-	public void setWeeklySalary(double weeklySalary) {	
+	public void weeklySalaryException(double weeklySalary) {
 		if(weeklySalary < 0.0)
 			throw new IllegalArgumentException("Weekly salary must be >= 0.0");
-		
+	}
+	
+	public int getZeroValueOfWeeklySalary() { 
+		return isZeroWeeklySalary() ? 1 : 0;		
+	}
+	
+	public boolean isZeroWeeklySalary() { 
+		return(weeklySalary == 0);
+	}
+	
+	public void setWeeklySalary(double weeklySalary) {	
+		weeklySalaryException(weeklySalary);		
 		this.weeklySalary = weeklySalary;
 	}
 	
