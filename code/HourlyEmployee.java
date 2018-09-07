@@ -57,10 +57,7 @@ public class HourlyEmployee extends Employee{
 	
 	@Override
 	public double getPaymentAmount() {
-		if(getHours() <= 40)	//nenhuma hora extra
-			return getWage() * getHours();
-		else
-			return 40 * getWage() + (getHours() - 40) * getWage() * 1.5;
+		return earnings(); //It is not a refactoring... 
 	}
 	
 	
