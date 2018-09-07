@@ -18,11 +18,7 @@ public class SalariedEmployee extends Employee{
 	}
 	
 	public int getZeroValueOfWeeklySalary() { 
-		return isZeroWeeklySalary() ? 1 : 0;		
-	}
-	
-	public boolean isZeroWeeklySalary() { 
-		return(weeklySalary == 0);
+		return (weeklySalary == 0) ? 1 : 0;		
 	}
 	
 	public void setWeeklySalary(double weeklySalary) {	
