@@ -10,8 +10,7 @@ public class Invoice implements Payable{
 	
 	public Invoice(String partNumber, String partDescription, int quantity, double pricePerItem) {
 		
-		if(quantity < 0)
-			throw new IllegalArgumentException("Quantity must be >= 0.0");
+		quantityException(quantity);
 		
 		if(pricePerItem < 0)
 			throw new IllegalArgumentException("Price per item must be >= 0.0");
@@ -21,6 +20,11 @@ public class Invoice implements Payable{
 		this.quantity = quantity;
 		this.pricePerItem = pricePerItem;
 		
+	}
+	
+	public void quantityException(int quantity) {
+		if(quantity < 0)
+			throw new IllegalArgumentException("Quantity must be >= 0.0");
 	}
 	
 	
