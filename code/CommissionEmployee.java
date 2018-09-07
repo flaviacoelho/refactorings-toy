@@ -13,11 +13,15 @@ public class CommissionEmployee extends Employee{
 		
 		commissionRateException(commissionRate);
 		
-		if (grossSales < 0.0)
-			throw new IllegalArgumentException("Gross sales must be >= 0.0");
+		grossSalesException(grossSales);
 		
 		this.grossSales = grossSales;
 		this.commissionRate = commissionRate;
+	}
+	
+	public void grossSalesException(double grossSales) {
+		if (grossSales < 0.0)
+			throw new IllegalArgumentException("Gross sales must be >= 0.0");		
 	}
 	
 	public void commissionRateException(double commissionRate) {
@@ -32,9 +36,7 @@ public class CommissionEmployee extends Employee{
 
 
 	public void setGrossSales(double grossSales) {
-		if (grossSales < 0.0)
-			throw new IllegalArgumentException("Gross sales must be >= 0.0");
-		
+		grossSalesException(grossSales);		
 		this.grossSales = grossSales;
 	}
 

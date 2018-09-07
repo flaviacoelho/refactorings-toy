@@ -45,8 +45,7 @@ public class Invoice implements Payable{
 
 	public void setQuantity(int quantity) {
 		
-		if(quantity < 0)
-			throw new IllegalArgumentException("Quantity must be >= 0.0");
+		quantityException(quantity);
 		
 		this.quantity = quantity;
 	}
