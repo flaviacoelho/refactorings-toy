@@ -6,10 +6,7 @@ public class Invoice implements Payable{
 	private final String partDescription;
 	private int quantity;
 	private double pricePerItem;
-	
-	private ClientType typeOfClient;
-	
-	
+		
 	public Invoice(String partNumber, String partDescription, int quantity, double pricePerItem) {
 		
 		quantityException(quantity);
@@ -79,14 +76,5 @@ public class Invoice implements Payable{
 	public double getPaymentAmount() {
 		return getQuantity() * getPricePerItem();
 	}
-	
-	
-	public double calculateDiscount() {
-		double discount = 0.2;
-		if (typeOfClient.isGolden())
-			return discount;
-		else
-			return 0.0;
-	}
-	
+		
 }
