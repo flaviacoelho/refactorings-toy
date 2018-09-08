@@ -6,6 +6,8 @@ public class Invoice implements Payable{
 	private final String partDescription;
 	private int quantity;
 	private double pricePerItem;
+	private String message;
+	private ClientType typeOfClient;
 		
 	public Invoice(String partNumber, String partDescription, int quantity, double pricePerItem) {
 		
@@ -75,6 +77,10 @@ public class Invoice implements Payable{
 	@Override
 	public double getPaymentAmount() {
 		return getQuantity() * getPricePerItem();
+	}
+	
+	public String printMessage() {
+		return message;
 	}
 		
 }
