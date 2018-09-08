@@ -79,13 +79,14 @@ public class Invoice implements Payable{
 	public double getPaymentAmount() {
 		return getQuantity() * getPricePerItem();
 	}
-		
-	public void setTypeOfClient(ClientType typeOfClient) {
-		this.typeOfClient = typeOfClient;
-	}
-
+	
+	
 	public double calculateDiscount() {
-		return typeOfClient.calculateDiscount();
+		double discount = 0.2;
+		if (typeOfClient.isGolden())
+			return discount;
+		else
+			return 0.0;
 	}
 	
 }

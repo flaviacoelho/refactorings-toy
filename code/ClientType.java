@@ -16,12 +16,4 @@ public class ClientType {
 		return (type.equals("Golden"));
 	}	
 	
-	public double calculateDiscount() {
-		double discount = 0.2;
-		if (isGolden())
-			return discount;
-		else
-			return 0.0;
-	}
-	
 }
