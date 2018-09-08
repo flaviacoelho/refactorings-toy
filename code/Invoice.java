@@ -6,6 +6,7 @@ public class Invoice implements Payable{
 	private final String partDescription;
 	private int quantity;
 	private double pricePerItem;
+	private double bonus;
 		
 	public Invoice(String partNumber, String partDescription, int quantity, double pricePerItem) {
 		
@@ -75,6 +76,11 @@ public class Invoice implements Payable{
 	@Override
 	public double getPaymentAmount() {
 		return getQuantity() * getPricePerItem();
+	}
+	
+	public double applyBonus() {
+		this.bonus = 0.05;
+		return bonus;
 	}
 		
 }

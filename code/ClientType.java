@@ -5,6 +5,7 @@ public class ClientType {
 	private String name;
 	private String id;
 	private String type;
+	private Invoice invoice;
 	
 	public ClientType(String name, String id, String type) {
 		this.name = name;
@@ -12,7 +13,12 @@ public class ClientType {
 		this.type = type;
 	}
 	
+	public void setInvoice(Invoice invoice) {
+		this.invoice = invoice;
+	}
+	
 	public boolean isGolden() {
+		invoice.applyBonus();
 		return (type.equals("Golden"));
 	}	
 	
