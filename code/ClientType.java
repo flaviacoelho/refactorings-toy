@@ -7,6 +7,7 @@ public class ClientType {
 	private String type;
 	private Invoice invoice;
 	private double bonus;
+	private String message;
 	
 	public ClientType(String name, String id, String type, Invoice invoice) {
 		this.name = name;
@@ -43,6 +44,14 @@ public class ClientType {
 	public double applyBonus() {
 		this.bonus = 0.05;
 		return bonus;
+	}
+
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
 	}
 	
 }
