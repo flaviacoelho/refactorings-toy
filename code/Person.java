@@ -3,30 +3,17 @@ package main.java;
 public class Person {
 		
 	private String name;
-	private String officeAreaCode;
-	private String officeNumber;
+	private TelephoneNumber officeTelephone = new TelephoneNumber();
 	
 	public String getName() {
 		return name;
 	}
 	
-	public String getTelephoneNumber() {
-		return ("(" + officeAreaCode + ") " + officeNumber);
+	public String getTelephoneNumber(){
+		return officeTelephone.getTelephoneNumber();
 	}
 	
-	String getOfficeAreaCode() {
-		return officeAreaCode;
-	}
-	
-	void setOfficeAreaCode(String arg) {
-		officeAreaCode = arg;
-	}
-	
-	String getOfficeNumber() {
-		return officeNumber;
-	}
-	
-	void setOfficeNumber(String arg) {
-		officeNumber = arg;
+	TelephoneNumber getOfficeTelephone() {
+		return officeTelephone;
 	}	
 }
