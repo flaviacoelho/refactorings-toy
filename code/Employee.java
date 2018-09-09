@@ -1,6 +1,6 @@
 package main.java;
 
-public abstract class Employee extends Party implements Payable{
+public abstract class Employee extends Party implements Payable, Billable{
 	
 	private final String firstName;
 	private final String lastName;
