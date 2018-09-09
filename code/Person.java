@@ -3,7 +3,7 @@ package main.java;
 public class Person {
 		
 	private String name;
-	private PhoneNumber officeTelephone = new PhoneNumber();
+	private TelephoneNumber officeTelephone = new TelephoneNumber();
 	
 	public String getName() {
 		return name;
@@ -13,7 +13,7 @@ public class Person {
 		return officeTelephone.getTelephoneNumber();
 	}
 	
-	PhoneNumber getOfficeTelephone() {
+	TelephoneNumber getOfficeTelephone() {
 		return officeTelephone;
 	}	
 }
