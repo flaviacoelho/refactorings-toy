@@ -11,20 +11,20 @@ public class CommissionEmployee extends Employee{
 		
 		super(firstName, lastName, socialSecurityNumber);		
 		
-		commissionRateException(commissionRate);
+		commissionRateHandleException(commissionRate);
 		
-		grossSalesException(grossSales);
+		grossSalesHandleException(grossSales);
 		
 		this.grossSales = grossSales;
 		this.commissionRate = commissionRate;
 	}
 	
-	public void grossSalesException(double grossSales) {
+	public void grossSalesHandleException(double grossSales) {
 		if (grossSales < 0.0)
 			throw new IllegalArgumentException("Gross sales must be >= 0.0");		
 	}
 	
-	public void commissionRateException(double commissionRate) {
+	public void commissionRateHandleException(double commissionRate) {
 		if ((commissionRate <= 0.0) || (commissionRate >= 1.0))
 			throw new IllegalArgumentException("Commission rate must be > 0.0 and < 1.0");
 	}
@@ -36,7 +36,7 @@ public class CommissionEmployee extends Employee{
 
 
 	public void setGrossSales(double grossSales) {
-		grossSalesException(grossSales);		
+		grossSalesHandleException(grossSales);		
 		this.grossSales = grossSales;
 	}
 
@@ -47,7 +47,7 @@ public class CommissionEmployee extends Employee{
 
 
 	public void setCommissionRate(double commissionRate) {	
-		commissionRateException(commissionRate);
+		commissionRateHandleException(commissionRate);
 		this.commissionRate = commissionRate;
 	}
 	
