@@ -5,7 +5,7 @@ public abstract class Employee extends Party implements Payable{
 	private final String firstName;
 	private final String lastName;
 	private final String socialSecurityNumber;
-	
+		
 	public Employee(String firstName, String lastName, String socialSecurityNumber) {
 		this.firstName = firstName;
 		this.lastName = lastName;
@@ -19,7 +19,7 @@ public abstract class Employee extends Party implements Payable{
 	public String getLastName() {
 		return lastName;
 	}
-
+	
 	public String getSocialSecurityNumber() {
 		return socialSecurityNumber;
 	}	
@@ -29,5 +29,9 @@ public abstract class Employee extends Party implements Payable{
 	}
 	
 	public abstract double earnings();
+	
+	String hasSpecialSkill() {
+		return "The employee has special skill";
+	}
 		
 }
