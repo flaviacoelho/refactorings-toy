@@ -30,7 +30,7 @@ public abstract class Employee extends Party implements Payable{
 	
 	public abstract double earnings();
 	
-	String hasSpecialSkill() {
+	public String hasSpecialSkill() {
 		return "The employee has special skill";
 	}
 		
