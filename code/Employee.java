@@ -5,6 +5,7 @@ public abstract class Employee implements Payable{
 	private final String firstName;
 	private final String lastName;
 	private final String socialSecurityNumber;
+	private String totalAnnualCost;
 	
 	public Employee(String firstName, String lastName, String socialSecurityNumber) {
 	
@@ -23,12 +24,20 @@ public abstract class Employee implements Payable{
 
 	public String getSocialSecurityNumber() {
 		return socialSecurityNumber;
-	}
+	}	
 	
+	public String getTotalAnnualCost() {
+		return totalAnnualCost;
+	}
+
+	public void setTotalAnnualCost(String totalAnnualCost) {
+		this.totalAnnualCost = totalAnnualCost;
+	}
+
 	public String toString() {
 		return String.format("%s %s%n Social Security Number: %s", getFirstName(), getLastName(), getSocialSecurityNumber());		
 	}
 	
 	public abstract double earnings();
-	
+		
 }
