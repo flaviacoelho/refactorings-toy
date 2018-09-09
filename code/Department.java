@@ -1,18 +1,9 @@
 package main.java;
 
-public class Department {
+public class Department extends Party{
 	
 	private String name;
-	private String totalAnnualCost;
-
-	public String getTotalAnnualCost() {
-		return totalAnnualCost;
-	}
-
-	public void setTotalAnnualCost(String totalAnnualCost) {
-		this.totalAnnualCost = totalAnnualCost;
-	}
-
+	
 	public String getName() {
 		return name;
 	}

@@ -1,14 +1,12 @@
 package main.java;
 
-public abstract class Employee implements Payable{
+public abstract class Employee extends Party implements Payable{
 	
 	private final String firstName;
 	private final String lastName;
 	private final String socialSecurityNumber;
-	private String totalAnnualCost;
 	
 	public Employee(String firstName, String lastName, String socialSecurityNumber) {
-	
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.socialSecurityNumber = socialSecurityNumber;
@@ -26,14 +24,6 @@ public abstract class Employee implements Payable{
 		return socialSecurityNumber;
 	}	
 	
-	public String getTotalAnnualCost() {
-		return totalAnnualCost;
-	}
-
-	public void setTotalAnnualCost(String totalAnnualCost) {
-		this.totalAnnualCost = totalAnnualCost;
-	}
-
 	public String toString() {
 		return String.format("%s %s%n Social Security Number: %s", getFirstName(), getLastName(), getSocialSecurityNumber());		
 	}
