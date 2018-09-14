@@ -18,7 +18,7 @@ public class Person {
 	}	
 }
 
-class OnePerson{
+class SpecialPerson{
 	private String description;
 
 	public String getDescription() {
