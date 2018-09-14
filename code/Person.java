@@ -18,6 +18,6 @@ public class Person {
 	}	
 }
 
-class SpecialPerson{
+class OnePerson{
 	
 }
