@@ -17,3 +17,7 @@ public class Person {
 		return officeTelephone;
 	}	
 }
+
+class SpecialPerson{
+	
+}
