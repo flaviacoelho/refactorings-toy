@@ -21,4 +21,8 @@ public class Department extends Party{
 		this.quota = quota;
 	}
 	
+	public void testRenameMethod() {
+		System.out.println("A simple test...");
+	}
+	
 }

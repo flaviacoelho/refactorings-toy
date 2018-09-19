@@ -9,6 +9,10 @@ public class Party {
 
 	public void setTotalAnnualCost(String totalAnnualCost) {
 		this.totalAnnualCost = totalAnnualCost;
-	}	
+	}
+	
+	public void testRenameMethod() {
+		System.out.println("A simple test...");
+	}
 
 }
