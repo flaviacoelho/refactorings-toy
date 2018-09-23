@@ -1,4 +1,6 @@
-package main.java;
+package main.java.util;
+
+import main.java.Invoice;
 
 public class ClientType {
 	
