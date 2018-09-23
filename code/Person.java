@@ -16,9 +16,16 @@ public class Person {
 	TelephoneNumber getOfficeTelephone() {
 		return officeTelephone;
 	}	
+	
+	public void testExtractAndMoveMethod() {
+		officeTelephone.setAreaCode("00");
+		System.out.println(getName());
+		officeTelephone.setAreaCode("88");
+	}
+	
 }
 
-class SpecialPerson{
+class SpecialPerson{ 
 	private String description;
 
 	public String getDescription() {
