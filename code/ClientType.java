@@ -1,4 +1,4 @@
-package main.java.util;
+package main.java.other;
 
 import main.java.Invoice;
 
