@@ -24,5 +24,11 @@ public class TelephoneNumber {
 	void setNumber(String arg) {
 		number = arg;
 	}
+	
+	public void testExtract(Person p) {
+		setAreaCode("00");
+		System.out.println(p.getName());
+		setAreaCode("88");
+	}
 		
 }

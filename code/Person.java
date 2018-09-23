@@ -18,10 +18,8 @@ public class Person {
 	}	
 	
 	public void testExtractAndMoveMethod() {
-		officeTelephone.setAreaCode("00");
-		System.out.println(getName());
-		officeTelephone.setAreaCode("88");
-	}
+		officeTelephone.testExtract(this);
+	}	
 	
 }
 
