@@ -1,4 +1,6 @@
-package main.java;
+package main.java.util;
+
+import main.java.Payable;
 
 public class Invoice implements Payable{
 	

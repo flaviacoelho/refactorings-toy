@@ -1,4 +1,4 @@
-package main.java.other;
+package main.java.util;
 
 public class Person {
 		
