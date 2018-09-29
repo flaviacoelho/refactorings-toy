@@ -1,1 +1,1 @@
-Dataset of refactorings detected (or not) by RMiner!
+Dataset of refactorings detected by RMiner!
