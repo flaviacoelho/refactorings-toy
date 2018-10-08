@@ -1,7 +1,15 @@
 package main.java.code;
 
 public class A {
+	
+	public void outroMetodo() {		
+	}
+	
 	public int getZeroValue() {
-		return (0 == 0) ? 1 : 0;
+		return isZero() ? 1 : 0;
+	}
+	
+	public boolean isZero() {
+		return (0 == 0);
 	}
 }
