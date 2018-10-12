@@ -1,11 +1,9 @@
 package main.java.code;
 
 public class B {
-	private C c;
-	
-	private int test;
+	private C c = new C();
 	
 	public void printTest() {
-		System.out.println(test);
+		System.out.println(c.getTest());
 	}
 }
