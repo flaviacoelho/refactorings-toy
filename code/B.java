@@ -6,7 +6,7 @@ public class B {
         System.out.println("This is a message...");
     }
     
-    private class D{
+    private class F{
     	
     }
     
