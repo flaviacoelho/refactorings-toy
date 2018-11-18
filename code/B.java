@@ -2,8 +2,7 @@ package main.java;
 
 public class B{
     private C c;
-    private int test;
     public void printTest(){
-        System.out.println(test);
+        System.out.println(c.getTest());
     }
 }
