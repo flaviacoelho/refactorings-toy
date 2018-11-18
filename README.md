@@ -1,6 +1,6 @@
 ## refactorings-toy
 
-A 'toy' with incremental refactorings applied to examples available on:
+A 'toy' with incremental refactorings applied to codes inspired in the examples available on:
 
 Deitel, P. and Deitel, H. Java: How to Program. Tenth Edition. Pearson, 2014.
 
