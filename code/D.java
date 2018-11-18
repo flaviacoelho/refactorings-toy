@@ -1,9 +1,5 @@
-package main.java.code;
+package main.java;
 
 public class D {
 	
-	private E e;
-	public void m() {
-		e.testEandM();
-	}
 }
