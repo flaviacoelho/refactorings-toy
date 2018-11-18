@@ -1,12 +1,14 @@
-package main.java.code;
+package main.java;
 
 public class A {
 	
-	public void outroMetodo() {		
-	}
-	
+	public int tmp = 0;
+
 	public int getZeroValue() {
-		return (0 == 0) ? 1 : 0;
+		return isZero() ? 1 : 0;
 	}
 	
+	public boolean isZero() {
+		return (tmp == 0);
+	}
 }
