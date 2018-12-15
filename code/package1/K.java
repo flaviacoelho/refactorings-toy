@@ -2,8 +2,12 @@ package main.java.code.package1;
 
 public class K extends J{
 	
+	//Move and Rename Attribute...
+	String k;
+	
 	public void mK() {
-		System.out.println("This fragment is used to Inline Variable refactoring!");
+		String var = "This fragment is used to Inline Variable refactoring!";
+		System.out.println(var);
 	}
 	
 }

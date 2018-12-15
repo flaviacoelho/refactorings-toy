@@ -1,6 +1,4 @@
-package main.java.code.package4;
-
-import main.java.code.package3.Q;
+package main.java.code.package3;
 
 public class N {
 	
@@ -13,7 +11,8 @@ public class N {
 	
 	//Extract and Move Method...
 	public void mNN() {
-		q.mQQ();
+		System.out.print("This fragment is used to ");
+		q.mQ();
 	}
 	
 }
