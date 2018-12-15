@@ -2,16 +2,18 @@ package main.java.code.package1;
 
 public class C {
 	
-	//Push Down Attribute... (only one subclass in the hierarchy)
-	String c = "This fragment is used to Pull Down Attribute/Method refactoring!";
-	
-	//Push Down Method... (only one subclasses in the hierarchy)
-	public String getH() {
-		return c;
+	//Move and Rename Attribute...
+	String c;
+			
+	public void mC() {		
+		String aux1 = "This fragment is used to ";
+		String aux2 = "Extract Variable refactoring!";
+		String var = aux1 + aux2;
+		System.out.println(var);
 	}
 	
-	public void mC() {
-		String var = "This fragment is used to " + "Extract Variable refactoring!";
-		System.out.println(var);
+	//Move Method... (between classes in different packages)
+	public void m1C() {
+		System.out.println("This fragment is used to Move Method refactoring!");
 	}
 }
