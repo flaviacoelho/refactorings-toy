@@ -610,13 +610,13 @@
   }, { 
     "id": 33,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "5c40aa66669b8561b1b298130241dc0818d909fd",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/5c40aa66669b8561b1b298130241dc0818d909fd",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Move Method",
+        "description": "Move Method	public m1C() : void from class main.java.code.package2.D to public m1C() : void from class main.java.code.package1.C",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",

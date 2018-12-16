@@ -32,9 +32,9 @@ public class A {
 		b.m1B(); //Rename Method
 
 		c.m1C(); //Move Method
-System.out.println();
-		//System.out.println(e.getE()); //Pull Up Attribute/Method
 
+		System.out.println(e.getE()); //Pull Up Attribute/Method
+		System.out.println();
 		//System.out.println(h.getH()); //Push Down Attribute/Method
 
 		//System.out.println(k.getK()); //Push Down Attribute/Method
