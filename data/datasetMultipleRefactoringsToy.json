@@ -1,0 +1,198 @@
+[{
+    "id": 28,
+    "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
+    "sha1": "a512c8ae45bae8ecb1ce92a32ed5af922edc9f80",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/a512c8ae45bae8ecb1ce92a32ed5af922edc9f80",
+    "author": "flavia",
+    "time": "12/16/18",
+    "refactorings": [{
+        "type": "Extract Method",
+        "description": "Extract Method public m1EM() : void extracted from public static main() : void in class main.java.code.package1.A",
+        "comment": null,
+        "validation": "FN",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Extract Method",
+        "description": "Extract Method	public m2EM() : void extracted from public m1A() : void in class main.java.code.package1.A",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Rename Method",
+        "description": "Rename Method	public mInlinedMethod() : void renamed to public m1EM() : void in class main.java.code.package1.A",
+        "comment": "mInlinedMethod() was deleted because we applied Inline Method refactoring in m2A() in class main.java.code.package1.A. To clarify, m1EM() was extracted from main() method, due an Extract Method refactoring. Thus, in this case, an Inline Method refactoring was really applied.",
+        "validation": "FP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Rename Method",
+        "description": "Rename Method	public m1() : void renamed to public m1C() : void in class main.java.code.package2.B",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Move Attribute",
+        "description": "Move Attribute	package a : String from class main.java.code.package2.D to class main.java.code.package1.A",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Move Attribute",
+        "description": "Move Attribute	package d : String from class main.java.code.package2.B to class main.java.code.package2.D",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Move Method",
+        "description": "Move Method	public m1C() : void from class main.java.code.package2.D to public m1C() : void from class main.java.code.package1.C",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Pull Up Attribute",
+        "description": "Pull Up Attribute	package e : String from class main.java.code.package2.F to class main.java.code.package2.E",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Pull Up Method",
+        "description": "Pull Up Method	public getE() : String from class main.java.code.package2.F to public getE() : String from class main.java.code.package2.E",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Pull Up Attribute",
+        "description": "Pull Up Attribute	package e : String from class main.java.code.package2.G to class main.java.code.package2.E",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Pull Up Method",
+        "description": "Pull Up Method	public getE() : String from class main.java.code.package2.G to public getE() : String from class main.java.code.package2.E",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Push Down Attribute",
+        "description": "Push Down Attribute	package c : String from class main.java.code.package1.C to class main.java.code.package1.H",
+        "comment": "only one subclass in the hierarchy",
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Push Down Method",
+        "description": "Push Down Method	public getH() : String from class main.java.code.package1.C to public getH() : String from class main.java.code.package1.H",
+        "comment": "only one subclass in the hierarchy",
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Push Down Attribute",
+        "description": "Push Down Attribute	package k : String from class main.java.code.package1.J to class main.java.code.package1.K",
+        "comment": "two subclasses in the hierarchy",
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Push Down Method",
+        "description": "Push Down Method	public getK() : String from class main.java.code.package1.J to public getK() : String from class main.java.code.package1.K",
+        "comment": "two subclasses in the hierarchy",
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Extract Interface",
+        "description": "Extract Interface	main.java.code.package1.I from classes [main.java.code.package1.J]",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Extract Superclass",
+        "description": "Extract Superclass	main.java.code.package2.M from classes [main.java.code.package2.B, main.java.code.package2.D]",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Pull Up Method",
+        "description": "Pull Up Method	public mM() : void from class main.java.code.package2.B to public mM() : void from class main.java.code.package2.M",
+        "comment": "It is related to a Extract Superclass refactoring",
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Pull Up Method",
+        "description": "Pull Up Method	public mM() : void from class main.java.code.package2.D to public mM() : void from class main.java.code.package2.M",
+        "comment": "It is related to a Extract Superclass refactoring",
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Move Class",
+        "description": "Move Class	main.java.code.package4.T moved to main.java.code.package3.T",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Move And Rename Class",
+        "description": "Move And Rename Class	main.java.code.package4.O moved and renamed to main.java.code.package3.P",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Extract And Move Method",
+        "description": "Extract And Move Method	public mQQ() : void extracted from public mNN() : void in class main.java.code.package3.N & moved to class main.java.code.package3.Q",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Rename Variable",
+        "description": "Rename Variable	r : String to out : String in method public mH(in String) : void in class main.java.code.package1.H",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Rename Parameter",
+        "description": "Rename Parameter	v : String to in : String in method public mH(in String) : void in class main.java.code.package1.H",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Change Package",
+        "description": "Change Package (Rename) from main.java.code.package4.package4c to main.java.code.package4.package4b",
+        "comment": "",
+        "validation": "FN",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Rename Attribute",
+        "description": "Rename Attribute  w : String to aa : String in class main.java.code.package1.A",
+        "comment": null,
+        "validation": "FN",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }, {
+        "type": "Move Attribute",
+        "description": "Move Attribute	package s : String from class main.java.code.package4.S to class main.java.code.package4.R",
+        "comment": "A Move and Rename Attribute refactoring was applied in s: String from class main.java.code.package4.S to r: String in class main.java.code.package4.R. Thus, in this case, an Move and Rename Atrribute refactoring was really applied.",
+        "validation": "FP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null     
+    }]
+}]
