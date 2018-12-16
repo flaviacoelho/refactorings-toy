@@ -1,22 +1,15 @@
 package main.java.code.package2;
 
-import main.java.code.package3.P;
-import main.java.code.package3.T;
+import main.java.code.package4.O;
+import main.java.code.package4.T;
 
 public class E {
 	T t = new T();
-	P o = new P();
-
-	//Pull Up Attribute...
-	String e = "This fragment is used to Pull Up Attribute/Method refactoring!";
-
+	O o = new O();
+	
 	public void mE() {
 		t.mT();
 		o.mP();
 	}
-
-	//Pull Up Method...
-	public String getE() {
-		return e;
-	}
+	
 }
