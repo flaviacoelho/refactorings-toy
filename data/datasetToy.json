@@ -630,28 +630,28 @@
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
+        "type": "Pull Up Attribute",
         "description": "Pull Up Attribute	package e : String from class main.java.code.package2.F to class main.java.code.package2.E",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
         "validators": null      
     }, { 
-        "type": "",
+        "type": "Pull Up Attribute",
         "description": "Pull Up Attribute	package e : String from class main.java.code.package2.G to class main.java.code.package2.E",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
         "validators": null      
     }, { 
-        "type": "",
+        "type": "Pull Up Method",
         "description": "Pull Up Method	public getE() : String from class main.java.code.package2.F to public getE() : String from class main.java.code.package2.E",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
         "validators": null      
     }, { 
-        "type": "",
+        "type": "Pull Up Method",
         "description": "Pull Up Method	public getE() : String from class main.java.code.package2.G to public getE() : String from class main.java.code.package2.E",
         "comment": null,
         "validation": "TP",
@@ -661,13 +661,34 @@
   }, { 
     "id": 35,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "1528905b5a32e4938f317b2c6e7f711d7b9c1eb2",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/1528905b5a32e4938f317b2c6e7f711d7b9c1eb2",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Push Down Attribute",
+        "description": "Push Down Attribute	package c : String from class main.java.code.package1.C to class main.java.code.package1.H",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Push Down Attribute",
+        "description": "Push Down Attribute	package k : String from class main.java.code.package1.J to class main.java.code.package1.K",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Push Down Method",
+        "description": "Push Down Method	public getH() : String from class main.java.code.package1.C to public getH() : String from class main.java.code.package1.H",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Push Down Method",
+        "description": "Push Down Method	public getK() : String from class main.java.code.package1.J to public getK() : String from class main.java.code.package1.K",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
