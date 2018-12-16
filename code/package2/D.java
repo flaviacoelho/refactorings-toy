@@ -12,7 +12,7 @@ public class D {
 	}
 	
 	//Extract Superclass...
-		public void mM() {
-			System.out.println("This fragment is used to Extract Superclass refactoring!");
+	public void mM() {
+		System.out.println("This fragment is used to Extract Superclass refactoring!");
 	}
 }

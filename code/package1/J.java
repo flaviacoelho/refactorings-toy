@@ -3,7 +3,7 @@ package main.java.code.package1;
 public class J {
 	
 	//Push Down Attribute... (two subclass in the hierarchy)
-	String k = "This fragment is used to Pull Down Attribute/Method refactoring!";
+	String k = "This fragment is used to Push Down Attribute/Method refactoring!";
 		
 	//Push Down Method... (two subclasses in the hierarchy)
 	public String getK() {
