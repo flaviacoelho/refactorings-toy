@@ -5,6 +5,9 @@ import main.java.code.package3.*;
 
 public class A {
 
+	//Move Attribute... (between classes in different packages)
+	String a;
+
 	//Rename Atribute
 	String w;
 
@@ -25,10 +28,10 @@ public class A {
 
 		m2A();  //Inline Method
 
-		b.m1(); //Rename Method
+		b.m1B(); //Rename Method
 
 		d.m1C(); //Move Method
-
+System.out.println();
 		//System.out.println(e.getE()); //Pull Up Attribute/Method
 
 		//System.out.println(h.getH()); //Push Down Attribute/Method

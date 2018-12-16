@@ -566,15 +566,15 @@
   }, { 
     "id": 31,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "34feffaed800be28f1a132081974d80d62e599b3",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/34feffaed800be28f1a132081974d80d62e599b3",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
-        "comment": null,
-        "validation": "TP",
+        "type": "Change Package",
+        "description": "Change Package (Rename) from main.java.code.package4.package4c to main.java.code.package4.package4b",
+        "comment": "It's an empty package",
+        "validation": "FN",
         "detectionTools": "RefactoringMiner",
         "validators": null      
     }]
