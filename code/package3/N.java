@@ -6,7 +6,8 @@ public class N {
 		
 	//Extract and Move Method...
 	public void mNN() {
-		q.mQQ();
+		System.out.print("This fragment is used to ");
+		q.mQ();
 	}
 	
 }
