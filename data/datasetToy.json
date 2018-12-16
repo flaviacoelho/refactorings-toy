@@ -551,13 +551,13 @@
   }, { 
     "id": 30,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "93a2cada5dbf6750f0942917df865436f4617bc5",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/93a2cada5dbf6750f0942917df865436f4617bc5",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Inline Method",
+        "description": "Inline Method	public mInlinedMethod() : void inlined to public m2A() : void in class main.java.code.package1.A",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
