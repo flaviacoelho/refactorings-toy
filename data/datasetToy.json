@@ -581,13 +581,27 @@
   }, { 
     "id": 32,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "1f32bf1f0f26daad553394da457b9f26f46011a0",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/1f32bf1f0f26daad553394da457b9f26f46011a0",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Rename Method",
+        "description": "Rename Method	public m1() : void renamed to public m1B() : void in class main.java.code.package2.B",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Move Attribute",
+        "description": "Move Attribute	package a : String from class main.java.code.package2.D to class main.java.code.package1.A",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Move Attribute",
+        "description": "Move Attribute	package d : String from class main.java.code.package2.B to class main.java.code.package2.D",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",

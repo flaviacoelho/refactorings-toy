@@ -19,6 +19,7 @@ public class A {
 		J j = new J();
 		N n = new N();
 		H h = new H();
+		C c = new C();
 
 		System.out.println("This is the Main class of a simple toy!");
 
@@ -30,7 +31,7 @@ public class A {
 
 		b.m1B(); //Rename Method
 
-		d.m1C(); //Move Method
+		c.m1C(); //Move Method
 System.out.println();
 		//System.out.println(e.getE()); //Pull Up Attribute/Method
 
