@@ -1,8 +1,8 @@
 [{
     "id": 28,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "a512c8ae45bae8ecb1ce92a32ed5af922edc9f80",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/a512c8ae45bae8ecb1ce92a32ed5af922edc9f80",
+    "sha1": "0c2f6a73c1a1616229fe7566fc017161e1b03759",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/0c2f6a73c1a1616229fe7566fc017161e1b03759",
     "author": "flavia",
     "time": "12/16/18",
     "refactorings": [{
