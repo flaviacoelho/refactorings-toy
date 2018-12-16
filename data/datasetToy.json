@@ -625,13 +625,34 @@
   }, { 
     "id": 34,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "9f5ff80eab2c946afd6fb8e79944ec0407537fb8",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/9f5ff80eab2c946afd6fb8e79944ec0407537fb8",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
         "type": "",
-        "description": "",
+        "description": "Pull Up Attribute	package e : String from class main.java.code.package2.F to class main.java.code.package2.E",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "",
+        "description": "Pull Up Attribute	package e : String from class main.java.code.package2.G to class main.java.code.package2.E",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "",
+        "description": "Pull Up Method	public getE() : String from class main.java.code.package2.F to public getE() : String from class main.java.code.package2.E",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "",
+        "description": "Pull Up Method	public getE() : String from class main.java.code.package2.G to public getE() : String from class main.java.code.package2.E",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",

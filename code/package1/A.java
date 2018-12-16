@@ -20,6 +20,7 @@ public class A {
 		N n = new N();
 		H h = new H();
 		C c = new C();
+		K k = new K();
 
 		System.out.println("This is the Main class of a simple toy!");
 
@@ -34,10 +35,10 @@ public class A {
 		c.m1C(); //Move Method
 
 		System.out.println(e.getE()); //Pull Up Attribute/Method
-		System.out.println();
-		//System.out.println(h.getH()); //Push Down Attribute/Method
+		
+		System.out.println(h.getH()); //Push Down Attribute/Method
 
-		//System.out.println(k.getK()); //Push Down Attribute/Method
+		System.out.println(k.getK()); //Push Down Attribute/Method
 
 		j.mI(); //Extract Interface
 
