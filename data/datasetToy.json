@@ -521,14 +521,14 @@
   }, { 
     "id": 28,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "1932e34c59992c40aaf62bbe9da58a327cbc8cc3",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/1932e34c59992c40aaf62bbe9da58a327cbc8cc3",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
-        "comment": null,
+        "type": "Extract Method",
+        "description": "Extract Method	public m1EM() : void extracted from public main(args String[]) : void in class main.java.code.package1.A",
+        "comment": "From this point, the next refactorings were applied in sequence on the previous version of a baseline code",
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
         "validators": null      

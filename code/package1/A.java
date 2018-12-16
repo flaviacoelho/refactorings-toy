@@ -55,6 +55,10 @@ public class A {
 	}
 
 	public static void m1A() {
+		m2EM();
+	}
+
+	public static void m2EM() {
 		//Extract Method... (from another method)
 		System.out.print("This fragment is used to ");
 		System.out.println("Extract Method refactoring!");
