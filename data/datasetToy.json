@@ -712,13 +712,34 @@
   }, { 
     "id": 37,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "595a211901b3a562c6e9470ab2f1cedfe145964b",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/595a211901b3a562c6e9470ab2f1cedfe145964b",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Extract Interface",
+        "description": "Extract Interface	main.java.code.package1.I from classes [main.java.code.package1.J]",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Extract Superclass",
+        "description": "Extract Superclass	main.java.code.package2.M from classes [main.java.code.package2.B, main.java.code.package2.D]",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Pull Up Method",
+        "description": "Pull Up Method	public mM() : void from class main.java.code.package2.B to public mM() : void from class main.java.code.package2.M",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Pull Up Method",
+        "description": "Pull Up Method	public mM() : void from class main.java.code.package2.D to public mM() : void from class main.java.code.package2.M",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",

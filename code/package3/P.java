@@ -1,6 +1,6 @@
-package main.java.code.package4;
+package main.java.code.package3;
 
-public class O {
+public class P {
 	
 	//Move and Rename Class...
 	public void mP(){
