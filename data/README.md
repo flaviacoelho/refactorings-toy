@@ -1,4 +1,5 @@
-##Dataset of refactorings detected by RefactoringMiner
+
+## Dataset of refactorings detected by RefactoringMiner
 
 The file format of datasetToy.json and datasetMultipleRefactoringsToy.json is similar to http://refactoring.encs.concordia.ca/oracle/api.php?json [Tsantalis et al. 2018].
 
