@@ -11,9 +11,9 @@ public class H extends C{
 	}
 
 	//Rename Variable/Parameter...
-	public void mH(String v) {
-		String r = v + "Rename Variable/Parameter refactorings!";
-		System.out.println(r);
+	public void mH(String in) {
+		String out = in + "Rename Variable/Parameter refactorings!";
+		System.out.println(out);
 	}
 
 }

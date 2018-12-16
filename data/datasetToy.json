@@ -748,13 +748,20 @@
   }, { 
     "id": 38,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "129c38e689f233596dafb003bfb7eeb095bd404a",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/129c38e689f233596dafb003bfb7eeb095bd404a",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Move Class",
+        "description": "Move Class	main.java.code.package4.T moved to main.java.code.package3.T",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Move And Rename Class",
+        "description": "Move And Rename Class	main.java.code.package4.O moved and renamed to main.java.code.package3.P",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
