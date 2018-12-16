@@ -799,17 +799,17 @@
   }, { 
     "id": 40,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "55553c1b8e3696db2df6532d636a209e6aa4a2bb",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/55553c1b8e3696db2df6532d636a209e6aa4a2bb",
     "author": "flavia",
     "time": "16/12/18", 
-    "refactorings": [{ 
-        "type": "",
-        "description": "",
+    "refactorings": [{
+        "type": "Rename Attribute",
+        "description": "Rename Attribute  w : String to aa : String in class main.java.code.package1.A",
         "comment": null,
-        "validation": "TP",
+        "validation": "FN",
         "detectionTools": "RefactoringMiner",
-        "validators": null      
+        "validators": null     
     }]
   }, { 
     "id": 41,
