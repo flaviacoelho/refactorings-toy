@@ -1,9 +1,9 @@
-package main.java.code.package4;
+package main.java.code.package3;
 
 public class T {
 
 	//Rename Atribute
-	String w;
+	String t;
 
 	//Move Class...
 	public void mT(){
