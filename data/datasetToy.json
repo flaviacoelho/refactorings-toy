@@ -770,13 +770,27 @@
   }, { 
     "id": 39,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "78711a0de7088b4d6d0e81fbbb823c11dbe15352",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/78711a0de7088b4d6d0e81fbbb823c11dbe15352",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Rename Variable",
+        "description": "Rename Variable	r : String to out : String in method public mH(in String) : void in class main.java.code.package1.H",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Rename Parameter",
+        "description": "Rename Parameter	v : String to in : String in method public mH(in String) : void in class main.java.code.package1.H",
+        "comment": null,
+        "validation": "TP",
+        "detectionTools": "RefactoringMiner",
+        "validators": null      
+    }, { 
+        "type": "Extract And Move Method",
+        "description": "Extract And Move Method	public mQQ() : void extracted from public mNN() : void in class main.java.code.package3.N & moved to class main.java.code.package3.Q",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",

@@ -9,7 +9,7 @@ public class A {
 	String a;
 
 	//Rename Atribute
-	String w;
+	String aa;
 
 	public static void main(String ... args) {
 
