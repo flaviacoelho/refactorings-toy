@@ -67,11 +67,7 @@ public class A {
 	public static void m2A() {
 		//Inline Method...
 		System.out.print("This fragment is used to ");
-		mInlinedMethod();
-	}
-
-	public static void mInlinedMethod() {
 		System.out.println("Inline Method refactoring!");
 	}
-
+	
 }

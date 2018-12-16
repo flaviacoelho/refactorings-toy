@@ -536,13 +536,13 @@
   }, { 
     "id": 29,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "ce95001f3de686dfb40a6dd3f383b52110bb00ef",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/ce95001f3de686dfb40a6dd3f383b52110bb00ef",
     "author": "flavia",
     "time": "16/12/18", 
     "refactorings": [{ 
-        "type": "",
-        "description": "",
+        "type": "Extract Method",
+        "description": "Extract Method	public m2EM() : void extracted from public m1A() : void in class main.java.code.package1.A",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
