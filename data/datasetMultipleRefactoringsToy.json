@@ -1,8 +1,8 @@
 [{
     "id": 28,
     "repository": "https://github.com/flaviacoelho/refactorings-toy.git",
-    "sha1": "",
-    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/",
+    "sha1": "32909580e1404456b1d48303220202c012e7b3c6",
+    "url": "https://github.com/flaviacoelho/refactorings-toy/commit/32909580e1404456b1d48303220202c012e7b3c6",
     "author": "flavia",
     "time": "12/16/18",
     "refactorings": [{
@@ -28,7 +28,7 @@
         "validators": null     
     }, {
         "type": "Rename Method",
-        "description": "Rename Method	public m1() : void renamed to public m1C() : void in class main.java.code.package2.B",
+        "description": "Rename Method	public m1() : void renamed to public m1B() : void in class main.java.code.package2.B",
         "comment": null,
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
@@ -162,14 +162,14 @@
     }, {
         "type": "Rename Variable",
         "description": "Rename Variable	r : String to out : String in method public mH(in String) : void in class main.java.code.package1.H",
-        "comment": null,
+        "comment": "TP, running RefactoringMiner downloaded on November 7th, and FN, running RefactoringMiner downloaded on December 17th",
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
         "validators": null     
     }, {
         "type": "Rename Parameter",
         "description": "Rename Parameter	v : String to in : String in method public mH(in String) : void in class main.java.code.package1.H",
-        "comment": null,
+        "comment": "TP, running RefactoringMiner downloaded on November 7th, and FN, running RefactoringMiner downloaded on December 17th",
         "validation": "TP",
         "detectionTools": "RefactoringMiner",
         "validators": null     
